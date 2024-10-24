@@ -1,0 +1,6 @@
+---
+hosts: all
+tasks:
+- name: clone a software image
+  cloneFrom: default-image
+  path: /cm/images/default-image
