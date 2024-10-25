@@ -2,4 +2,4 @@
 - hosts: localhost
   tasks:
     - name: Run a local task
-      command: echo "Running on localhost"
+      command: echo "hello world"
