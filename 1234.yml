@@ -1,5 +1,11 @@
 ---
 - hosts: localhost
+  gather_facts: no
   tasks:
-    - name: Run a local task
-      command: echo "hello world"
+    - name: Execute clone command
+      command: echo "Cloning 123"
+      register: result
+
+    - name: Show command result
+      debug:
+        var: result.stdout
