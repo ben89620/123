@@ -3,7 +3,7 @@
   gather_facts: no
   tasks:
     - name: Execute clone command
-      command: echo "Cloning 123"
+      command: echo "hello world"
       register: result
 
     - name: Show command result
