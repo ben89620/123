@@ -3,7 +3,7 @@
   gather_facts: no
   tasks:
     - name: Execute clone command
-      command: echo "hello world"
+      command: echo "hello world,this is Ben testing ansible"
       register: result
 
     - name: Show command result
